@@ -111,7 +111,8 @@ export default {
   },
   // Select
   select: {
-    base: 'block w-full text-sm border-gray-300 rounded-md shadow-sm dark:text-gray-300 focus:outline-none',
+    base:
+      'block w-full text-sm border-gray-300 rounded-md shadow-sm dark:text-gray-300 focus:outline-none',
     active:
       'focus:border-gray-400 focus:ring-1 focus:ring-gray-400 dark:focus:ring-gray-300 dark:focus:border-gray-600 dark:border-gray-600 dark:bg-gray-700',
     select: 'leading-5',
@@ -131,7 +132,8 @@ export default {
   },
   // Input
   input: {
-    base: 'block w-full text-sm rounded-md focus:outline-none dark:text-gray-300 leading-5 shadow-sm',
+    base:
+      'block w-full text-sm rounded-md focus:outline-none dark:text-gray-300 leading-5 shadow-sm',
     active:
       'focus:border-primary-400 dark:border-gray-600 focus:ring focus:ring-opacity-40 focus:ring-primary-300 dark:focus:border-gray-600 dark:focus:ring-gray dark:bg-gray-700',
     disabled: 'cursor-not-allowed opacity-50 bg-gray-300 dark:bg-gray-800',
@@ -188,7 +190,8 @@ export default {
     },
     primary: {
       base: 'text-white bg-primary border border-transparent',
-      active: 'active:bg-primary hover:bg-primary-700 focus:ring focus:ring-opacity-40 focus:ring-primary-300',
+      active:
+        'active:bg-primary hover:bg-primary-700 focus:ring focus:ring-opacity-40 focus:ring-primary-300',
       disabled: 'opacity-50 cursor-not-allowed',
     },
     outline: {
@@ -206,7 +209,8 @@ export default {
     // this is the button that lives inside the DropdownItem
     dropdownItem: {
       base:
-        'inline-flex items-center cursor-pointer w-full px-4 py-2 text-sm text-gray-700 focus:outline-none hover:bg-gray-100 hover:text-gray-900 dark:hover:bg-gray-800 dark:hover:text-gray-200',
+        'inline-flex items-center cursor-pointer w-full px-4 py-2 text-sm text-gray-700 focus:outline-none focus:bg-gray-100 focus:text-gray-900 hover:bg-gray-100 hover:text-gray-900 dark:hover:bg-gray-800 dark:hover:text-gray-200',
+      disabled: 'opacity-50 cursor-not-allowed',
     },
   },
 }

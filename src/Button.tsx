@@ -139,7 +139,7 @@ const Button = React.forwardRef<Ref, ButtonProps>(function Button(props, ref) {
 
   const buttonStyles =
     layout === '__dropdownItem'
-      ? classNames(dropdownItemStyle, className)
+      ? classNames(dropdownItemStyle, disabled && button.dropdownItem.disabled, className)
       : classNames(
           baseStyle,
           // has icon but no children
