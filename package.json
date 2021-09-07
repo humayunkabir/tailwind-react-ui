@@ -23,7 +23,7 @@
     "lint:fix": "eslint . --fix",
     "prerelease": "npm run build",
     "release": "release-it",
-    "storybook": "start-storybook -p 6006",
+    "storybook": "start-storybook -s .storybook/public -p 6006",
     "build-storybook": "build-storybook"
   },
   "peerDependencies": {
